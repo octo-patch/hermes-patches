@@ -92,8 +92,8 @@ class _FakeSessionDB:
 
 
 def test_minimax_default_model_tracks_current_provider_default():
-    assert _PROVIDER_DEFAULT_MODELS["minimax"] == "MiniMax-M3"
-    assert _PROVIDER_DEFAULT_MODELS["minimax-cn"] == "MiniMax-M3"
+    assert _PROVIDER_DEFAULT_MODELS["minimax"] == "MiniMax-M3.1-Flash"
+    assert _PROVIDER_DEFAULT_MODELS["minimax-cn"] == "MiniMax-M3.1-Flash"
 
 
 @pytest.fixture()
